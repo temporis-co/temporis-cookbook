@@ -1,0 +1,28 @@
+{
+  "temporis": {
+    "data_source": "ibkr",
+    "access_token": "$TS_TOKEN"
+  },
+  "client_portal": {
+    "host": "localhost",
+    "port": 5000
+  },
+  "contracts": [
+    {"conid": 265598, "symbol": "AAPL"},
+    {"conid": 265768, "symbol": "ADBE"},
+    {"conid": 266093, "symbol": "AMAT"},
+    {"conid": 3691937, "symbol": "AMZN"},
+    {"conid": 313130367, "symbol": "AVGO"},
+    {"conid": 166090175, "symbol": "BABA"},
+    {"conid": 29624264, "symbol": "CRM"},
+    {"conid": 268084, "symbol": "CSCO"},
+    {"conid": 107113386, "symbol": "META"},
+    {"conid": 208813719, "symbol": "GOOGL"},
+    {"conid": 208813720, "symbol": "GOOG"},
+    {"conid": 270639, "symbol": "INTC"},
+    {"conid": 272093, "symbol": "MSFT"},
+    {"conid": 15124833, "symbol": "NFLX"},
+    {"conid": 4815747, "symbol": "NVDA"},
+    {"conid": 76792991, "symbol": "TSLA"}
+  ]
+}

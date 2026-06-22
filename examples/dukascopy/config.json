@@ -1,0 +1,29 @@
+{
+  "temporis": {
+    "data_source": "dukascopy",
+    "access_token": "$TS_TOKEN"
+  },
+  "dukascopy": {
+    "username": "",
+    "password": "$DUKASCOPY_PASSWORD",
+    "sender_comp_id": ""
+  },
+  "pairs": [
+    "EUR/JPY",
+    "GBP/JPY",
+    "EUR/GBP",
+    "EUR/CHF",
+    "GBP/CHF",
+    "CHF/JPY",
+    "USD/SEK",
+    "USD/NOK",
+    "USD/DKK",
+    "AUD/JPY",
+    "EUR/CAD",
+    "EUR/SEK",
+    "CAD/JPY",
+    "USD/SGD",
+    "EUR/NZD",
+    "EUR/AUD"
+  ]
+}

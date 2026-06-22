@@ -1,0 +1,10 @@
+{
+  "temporis": {
+    "data_source": "tiingo",
+    "access_token": "$TS_TOKEN"
+  },
+  "tiingo_token": "$TIINGO_TOKEN",
+  "tickers": [
+    "AAPL", "ADBE", "AMAT", "AMZN", "AVGO", "BABA", "CRM", "CSCO", "META", "GOOGL", "GOOG", "INTC", "MSFT", "NFLX", "NVDA", "TSLA"
+  ]
+}

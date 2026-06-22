@@ -1,0 +1,12 @@
+{
+  "temporis": {
+    "data_source": "polymarket",
+    "access_token": "$TS_TOKEN"
+  },
+  "targets": [
+    "btc-up-or-down-hourly",
+    "eth-up-or-down-hourly",
+    "solana-up-or-down-hourly",
+    "xrp-up-or-down-hourly"
+  ]
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="data:,">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBKR API Tools</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #666;
+            margin-bottom: 30px;
+        }
+        .nav-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .nav-card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            text-decoration: none;
+            color: inherit;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .nav-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+        }
+        .nav-card h2 {
+            color: #007bff;
+            margin: 0 0 8px 0;
+            font-size: 18px;
+        }
+        .nav-card p {
+            color: #666;
+            margin: 0;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+        .nav-number {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            background: #007bff;
+            color: white;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>IBKR API Tools</h1>
+    <p class="subtitle">Interactive Brokers Client Portal API utilities</p>
+
+    <div class="nav-grid">
+        <a href="/tickle" class="nav-card">
+            <h2><span class="nav-number">1</span>Ping</h2>
+            <p>Ping the server and check status.</p>
+        </a>
+
+        <a href="/logout" class="nav-card">
+            <h2><span class="nav-number">2</span>Logout</h2>
+            <p>End the current Client Portal session.</p>
+        </a>
+
+        <a href="/symbol-search" class="nav-card">
+            <h2><span class="nav-number">3</span>Search Contract by Symbol</h2>
+            <p>Search for securities by their trading symbol. Returns contract details including conid, description, and available exchanges.</p>
+        </a>
+
+        <a href="/security-definition" class="nav-card">
+            <h2><span class="nav-number">4</span>Security Definition by Contract ID</h2>
+            <p>Retrieve detailed security definition information using a contract identifier (conid).</p>
+        </a>
+
+        <a href="/contract-info-rules" class="nav-card">
+            <h2><span class="nav-number">5</span>Contract Info and Rules</h2>
+            <p>Find all trading information and rules for a given contract, including requirements and specifications.</p>
+        </a>
+
+        <a href="/trading-schedule" class="nav-card">
+            <h2><span class="nav-number">6</span>Trading Schedule</h2>
+            <p>Retrieve trading schedule information including market hours, sessions, and holidays.</p>
+        </a>
+
+        <a href="/ws-monitor" class="nav-card">
+            <h2><span class="nav-number">7</span>WebSocket Monitor</h2>
+            <p>Real-time market data feed.</p>
+        </a>
+    </div>
+</body>
+</html>
